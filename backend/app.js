@@ -7,7 +7,7 @@ const server = http.createServer(async (req, res) => {
         //response headers
         res.writeHead(200, { "Content-Type": "application/json" });
         //set the response
-        res.write("Recurse is super cool!!!");
+        res.write("Recurse is super cool!");
         //end the response
         res.end();
     }
